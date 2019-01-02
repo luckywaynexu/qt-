@@ -1,0 +1,8 @@
+﻿  Moc'ing websocket.h...
+  moc_websocket.cpp
+  moc_widget.cpp
+  main.cpp
+  websocket.cpp
+  widget.cpp
+  widget.vcxproj -> C:\Projects\VisualStudioProjects\widget\Win32\Debug\widget.exe
+  widget.vcxproj -> C:\Projects\VisualStudioProjects\widget\Win32\Debug\widget.pdb (Full PDB)

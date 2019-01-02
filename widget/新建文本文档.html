@@ -1,0 +1,11 @@
+<html>
+    <head>
+         <title>web socket client</title>
+    </head>
+    <body> <button onClick="connect();">Connect</button> <textarea id="msgArea"></textarea> 
+        <script type="text/javascript"> var wsuri = "ws://localhost:3333"; var websocket = null; var msgArea = document.getElementById("msgArea"); function connect(){
+             try{ websocket = new WebSocket(wsuri); websocket.onopen = function(evt){ msgArea.value += "connected\n"; }; websocket.onmessage = function(evt){ msgArea.value += evt.data; msgArea.value += "\n"; }; }
+             catch(execption){ msgArea.value += "error"; } } 
+        </script> 
+    </body>
+</html>
